@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="188.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="secretCard1" alignment="CENTER" layoutX="14.0" layoutY="65.0" prefHeight="58.0" prefWidth="418.0" text="통행료 패스권 사용!!" textFill="#e10808">
+         <font>
+            <Font name="Britannic Bold" size="32.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

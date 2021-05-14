@@ -1,0 +1,13 @@
+.bodybg{
+	-fx-background-image:  url('./images/bsmBackground.png');
+	-fx-background-size: contain;
+	-fx-width: auto;
+	-fx-height: auto;
+}
+
+.dicedg{
+	-fx-background-image:  url('./images/dice1.JPG');
+	-fx-background-size: contain;
+	-fx-width: auto;
+	-fx-height: auto;
+}

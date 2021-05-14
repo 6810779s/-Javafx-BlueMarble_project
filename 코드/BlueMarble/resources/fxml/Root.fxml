@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="890.0" styleClass="bodybg" stylesheets="@/background.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AppController">
+   <children>
+      <Button fx:id="btn1" layoutX="425.0" layoutY="431.0" mnemonicParsing="false" text="클릭" />
+      <ImageView fx:id="DiceImg1" fitHeight="72.0" fitWidth="72.0" layoutX="354.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/images/dice1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="DiceImg2" fitHeight="72.0" fitWidth="72.0" layoutX="465.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/images/dice1.png" />
+         </image>
+      </ImageView>      
+      <TextField fx:id="MyMoney" layoutX="107.0" layoutY="583.0" />
+      <TextField fx:id="YourMoney" layoutX="618.0" layoutY="4.0" />
+      <Label fx:id="yourName" alignment="CENTER" layoutX="778.0" layoutY="6.0" prefWidth="107.0" text="상대방" textFill="#bef5b8">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="myName" alignment="CENTER" contentDisplay="CENTER" layoutY="587.0" prefWidth="107.0" text="나" textFill="#f5f3f3">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="myWinLose" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="569.0" text="승 : 000 패 : 000" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="yourWinLose" alignment="CENTER" contentDisplay="CENTER" layoutX="779.0" layoutY="26.0" text="승 : 000 패 : 000" textFill="#bef5b8">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="card2" layoutX="536.0" layoutY="6.0" text="card x" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="cardcnt2" layoutX="587.0" layoutY="3.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="card1" layoutX="268.0" layoutY="586.0" text="card x" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="cardcnt1" layoutX="316.0" layoutY="582.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="C1" fitHeight="50.0" fitWidth="40.0" layoutX="802.0" layoutY="468.0" preserveRatio="true">
+         <image>
+            <Image url="@/images/rocket1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="C2" fitHeight="50.0" fitWidth="30.0" layoutX="808.0" layoutY="493.0" preserveRatio="true">
+         <image>
+            <Image url="@/images/rocket2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="StartGame" layoutX="392.0" layoutY="240.0" mnemonicParsing="false" text="StartGame">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="Waiting" alignment="CENTER" layoutX="248.0" layoutY="159.0" prefHeight="67.0" prefWidth="395.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="Double" alignment="CENTER" layoutX="248.0" layoutY="555.0" prefHeight="11.0" prefWidth="395.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnGiveup" mnemonicParsing="false" style="-fx-background-color: #8f8f8b;" text="항복" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="gameRule" layoutX="65.0" layoutY="4.0" onMouseClicked="#gameRule" text="게임설명서" textFill="#d0cbcb" />
+   </children>
+</AnchorPane>

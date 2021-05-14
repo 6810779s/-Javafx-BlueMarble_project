@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="188.0" prefWidth="347.0" style="-fx-background-color: #73aade;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ChoiceBox id="myLand" layoutX="176.0" layoutY="25.0" prefWidth="150.0" />
+      <ChoiceBox id="yourLand" layoutX="176.0" layoutY="83.0" prefWidth="150.0" />
+      <Button id="choiceLand" contentDisplay="CENTER" layoutX="29.0" layoutY="137.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="121.0" style="-fx-background-color: #bae1f5;" text="선택완료" textAlignment="CENTER" />
+      <Button id="Complete" contentDisplay="CENTER" layoutX="199.0" layoutY="137.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="121.0" style="-fx-background-color: #bae1f5;" text="닫기" textAlignment="CENTER" />
+      <Label id="myLandLabel" layoutX="41.0" layoutY="25.0" prefHeight="22.0" prefWidth="109.0" text="내땅 선택 : " />
+      <Label id="yourLandLabel" fx:id="ChoiceLand" layoutX="41.0" layoutY="82.0" prefHeight="22.0" prefWidth="109.0" text="가져올 땅 선택" />
+   </children>
+</AnchorPane>

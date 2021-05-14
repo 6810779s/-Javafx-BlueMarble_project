@@ -1,0 +1,6 @@
+.gamerulebg{
+	-fx-background-image:  url('./images/gameRule.png');
+	-fx-background-size: contain;
+	-fx-width: auto;
+	-fx-height: auto;
+}

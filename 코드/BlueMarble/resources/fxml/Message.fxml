@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="188.0" prefWidth="428.0" style="-fx-background-color: #73aade;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="Complete" layoutX="151.0" layoutY="115.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="121.0" style="-fx-background-color: #bae1f5;" text="확인" />
+      <Label id="Message" alignment="CENTER" layoutX="4.0" layoutY="23.0" prefHeight="23.0" prefWidth="421.0" text="천왕성 통행료 1000000원을 지불하였습니다." textFill="#fcf7f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="curMoney" alignment="CENTER" layoutX="3.0" layoutY="67.0" prefHeight="22.0" prefWidth="165.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

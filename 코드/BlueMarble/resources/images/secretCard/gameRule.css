@@ -1,0 +1,6 @@
+.secretbg{
+	-fx-background-image:  url('./images/gameRule.jpg');
+	-fx-background-size: contain;
+	-fx-width: auto;
+	-fx-height: auto;
+}
